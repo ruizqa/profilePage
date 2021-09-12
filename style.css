@@ -328,12 +328,12 @@ sidebar .top-panel{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 2%;
+    margin: 5% 0;
     align-items: center;
 }
 
 .bottom-panel-info .row{ /*Only two elements per row in bottom panel */
-
+    margin: 0; /* Proportions are different between top and bottom panel due to nesting*/
     justify-content: flex-start;
 }
 
